@@ -1,0 +1,18 @@
+.btn{
+    border: 0;
+    border-radius: 1.75rem;
+    width: 167px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.addincome{
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);   
+}
+
+.addexpense{
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+}

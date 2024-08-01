@@ -1,0 +1,17 @@
+.expenselegend {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.expenselegend li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+}

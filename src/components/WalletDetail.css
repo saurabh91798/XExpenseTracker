@@ -1,0 +1,56 @@
+.box {
+  width: 355px;
+  height: 181px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #9b9b9b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+
+.boxheader {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.boxheader > span {
+  font-weight: 700;
+}
+
+.boxheader > .green {
+  color: rgb(92, 240, 92);
+}
+
+.boxheader > .red {
+  color: rgb(255, 194, 73);
+}
+
+/* Responsive Breakpoints */
+
+/* 1 - Mobiles */
+@media not all and (min-width: 640px) {
+  .box {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #9b9b9b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+  }
+
+  .boxheader {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+}
